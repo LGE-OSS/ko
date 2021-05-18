@@ -1,0 +1,53 @@
+<header class="site-header">
+
+    <!-- Logo and title -->
+	<div class="branding">
+	  <a class="logo" href="{{ site.baseurl }}">
+	    <img class="avatar" src="{{ site.baseurl }}/assets/img/logo.jpg">
+	  </a>
+	</div>
+
+    <!-- Toggle menu -->
+    <nav class="clear">
+    <a aria-label="pull" id="pull" class="toggle" href="#">
+    <i class="fa fa-bars fa-lg"></i>
+    </a>
+
+    <!-- Menu -->
+    <ul class="hide">
+        {% assign name_page = "" %}
+
+        {% for page in site.pages %}
+            {% unless page.title == null or page.hide or name_page contains page.title %}
+            <li class="separator"> | </li>
+            <li>
+                <a class="clear" aria-label="{{ page.title }}" title="{{ page.title }}" href="{{ page.url | relative_url }}">
+                    {% if page.icon %} <i class="fa {{ page.icon }}" aria-hidden="true"></i>
+                    {% else %} {{ page.title }} {% endif%}
+                </a>
+            </li>
+            {% endunless %}
+            {% assign name_page = page.title | append: name_page %}
+        {% endfor %}
+	    <li class="separator"> | </li>
+        <li>
+	        <a class="clear" aria-label="guide" title="guide" href="https://lge-oss.github.io/guide/">Guide</a>
+        </li>
+	    <li class="separator"> | </li>
+        <li>
+	        <a class="clear" aria-label="github" title="github" href="https://github.com/LGE-OSS">Github</a>
+        </li>
+        <li class="separator"> | </li>
+        <li>
+            <div class="dropdown">
+                <button class="dropbtn"><img src="{{ site.baseurl }}/assets/img/icons/language.ico" alt="language"></button>
+                <div class="dropdown-content">
+                  <a href="http://oss.lge.com/ko">Korean</a>
+                  <a href="http://oss.lge.com">English</a>
+                </div>
+            </div>
+        </li>
+    </ul>
+
+	</nav>
+</header>

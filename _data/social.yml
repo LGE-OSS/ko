@@ -1,0 +1,40 @@
+# Icons on the footer
+rss:
+email_address:    # Full email address, e.g. "sam@example.com"
+behance:
+bitbucket:
+dribbble:
+facebook: "theLGstory"
+flickr:
+gitlab:
+github: "lge-oss"
+instagram: "lgelectronics_kr"
+keybase:
+linkedin:         # Full URL
+pinterest:
+reddit:
+soundcloud:
+stack_overflow:
+stack_exchange:   # Full URL
+steam:
+tumblr:
+twitter: "lgelectronics"          # "twitter username"
+vimeo:
+wordpress:
+youtube: "UCrIAnDo3VuWex3fywkGpB1g"          # Youtube channel token like: UCqECaJ8Gagnn7YCbPEzWH6g
+
+# rss specify feed path
+feed:
+  path:
+
+# Share button options
+share:
+  facebook: true
+  twitter: true
+  tumblr:
+  pinterest:
+  pocket:
+  reddit:
+  linkedin:
+  wordpress:
+  email:
