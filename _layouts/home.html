@@ -3,11 +3,22 @@ layout: default
 ---
 
 <div class="home">
-    <div id="main" class="call-out" style="background-image: url('{{ site.header_feature_image | relative_url }}')">
-        <div class="learn-icon">
-            <a href=project class="button4">
-              Learn more projects!
-            </a>
-          </div>
-    </div>
+  <div id="main" class="call-out" style="background-image: url('{{ site.header_feature_image | relative_url }}')">
+  
+  <div class="main_post">
+    <p align="center"><img src="assets/img/icons/bi.png" width="70%"/></p>
+    <br>
+    <p>
+      LG 오픈 소스 홈페이지는 핵심 가치에 맞추어 오픈 소스를 효과적으로 사용하기 위한 오픈 소스 정책 및 컴플라이언스 프로세스뿐만 아니라, LG 전자에서 공개한 오픈 소스 프로젝트들을 모아 프로젝트 정보를 제공하고 있습니다.
+    </p>
+    <br><br><hr>
+    <br>
+    {% include keyvalue.html %}
+    <br>
+    <br>
+    {% include attribution.html %}
+  </div>
+  </div>
+  </div>
 </div>
+
