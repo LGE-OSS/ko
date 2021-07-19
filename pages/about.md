@@ -15,7 +15,7 @@ LG Open Source Program Office는 회사 내 효율적인 오픈 소스 관리와
 <br>
 ## <center>OpenChain Conformance</center>
 <br>
-OpenChain 프로젝트는 오픈소스 컴플라이언스 활동을 더 간단하고 일관성 있게 만들어 신뢰를 구축할 수 있도록 합니다. OpenChain 적합성(Conformance)은 기관이 이러한 OpenChain 요구사항에 대한 준수를 표시할 수 있도록 함으로써, 소프트웨어 공급체인의 참가자들이 오픈소스 컴플라이언스를 보다 예측 가능하고, 이해하기 쉬우며 효율적으로 만들 수 있습니다. [LG전자는 2019년 11월 국내 기업 가운데 최초로 리눅스 재단으로부터 OpenChain 적합성 준수 기업으로 인증받았습니다.](https://www.openchainproject.org/news/2019/11/19/lg-electronics-announces-openchain-conformance) 추가로 2020년에 오픈체인이 ISO 표준 등록이 되고 나서, [2021년 2월에는 국내 기업 최초로 LG전자는 국제표준규격인 OpenChain 2.1 \(ISO/IEC 5230\) 적합성 준수 기업으로 등록하였습니다.](https://www.openchainproject.org/featured/2021/02/08/lg-openchain-iso-5230)
+OpenChain 프로젝트는 오픈소스 컴플라이언스 활동을 더 간단하고 일관성 있게 만들어 신뢰를 구축할 수 있도록 합니다. OpenChain 적합성(Conformance)은 기관이 이러한 OpenChain 요구사항에 대한 준수를 통하여 소프트웨어 공급체인의 참가자들이 오픈소스 컴플라이언스를 보다 예측 가능하고, 이해하기 쉬우며 효율적으로 만들 수 있습니다. [LG전자는 2019년 11월 국내 기업 최초로 OpenChain 준수 기업으로 등록하였습니다.](https://www.openchainproject.org/news/2019/11/19/lg-electronics-announces-openchain-conformance) 추가로 2020년 12월 오픈체인이 ISO 표준으로 등록된 후, [2021년 2월 LG전자는 국제 표준 규격인 OpenChain 2.1 \(ISO/IEC 5230\) 준수 기업으로 등록하였습니다.](https://www.openchainproject.org/featured/2021/02/08/lg-openchain-iso-5230)
 
 <br>
 <hr>
