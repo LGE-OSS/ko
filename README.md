@@ -1,4 +1,8 @@
-LG Open Source Homepage
+```
+새로운 LG Open Source 사이트는 https://opensource.lge.com로 이동하였습니다.
+```
+
+(OLD) LG Open Source Homepage
 =========================
 LG전자 오픈 소스 홈페이지 소스코드 저장소입니다.  
 해당 홈페이지에서는 오픈 소스 정책 및 컴플라이언스 프로세스뿐만 아니라, LG 전자에서 공개한 오픈 소스 프로젝트들을 모아 프로젝트 정보를 제공하고 있습니다.
